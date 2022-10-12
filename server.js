@@ -1,7 +1,7 @@
 const express = require("express"); 
 const natural = require("natural"); 
 
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 5000;
 
 let app = express();          //express
 
