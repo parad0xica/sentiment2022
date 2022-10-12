@@ -1,8 +1,10 @@
 const express = require("express"); 
 const natural = require("natural"); 
 
-let app = express();          //express
 const port = process.env.PORT || 5000
+
+let app = express();          //express
+
 
   
 app.use(express.json()); 
