@@ -44,6 +44,6 @@ app.post("/feedback", (request, response) => {
 }); 
 
 
-app.listen(port, host, () => { 
+app.listen(process.env.PORT || 5000, () => { 
     console.log('Running...'); 
 });
