@@ -33,7 +33,7 @@
     border-radius: 10px;
     background-color: rgb(85, 95, 171);
     position: absolute;
-    content: "This website analyses contents of a text, returning 1 out of 3 emojis, depending on the overall positivity/negativity of the text itself.";
+    content: "Questo sito web analizza il contenuto di un testo, restituendo 1 emoji su 3, a seconda della positività/negatività complessiva del testo stesso.";
     opacity: 0;
     visibility: hidden;
     left: 50%;
@@ -117,7 +117,7 @@
     border-radius: 10px;
     background-color: rgb(85, 95, 171);
     position: absolute;
-    content: "Compatible with any text, including emojis, special symbols etc..";
+    content: "Compatible con testo, emojis, simboli speciali";
     opacity: 0;
     visibility: hidden;
     left: 50%;
@@ -145,7 +145,7 @@
     border-radius: 10px;
     background-color: rgb(85, 95, 171);
     position: absolute;
-    content: "Visual Studio Code for HTML, CSS, JavaScript, Node.js (express for server, natural for analysis); Photoshop for images";
+    content: "Visual Studio Code per HTML, CSS, JavaScript, Node.js (express per server, natural per analisi); Photoshop per immagini";
     opacity: 0;
     visibility: hidden;
     left: 50%;
