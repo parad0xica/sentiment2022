@@ -4,8 +4,8 @@
   border-radius: 15px;
   padding: 60px 20px;
   box-sizing: border-box;
-  margin-left: 200px;
-  margin-top: 50px;
+  margin-left: 13%;
+  margin-top: 6%;
   border: none;
   color: white;
   font-size: 24px;
@@ -23,9 +23,8 @@
   border-radius: 15px;
   padding: 10px 30px;
   background-color: rgb(85, 95, 171);
-  position: relative;
-  margin-left: 690px;
-  margin-top: 10px;
+  margin-left: 44%;
+  margin-top: 2%;
 }
 .button button:hover {
   background-color: #1B1D37;
