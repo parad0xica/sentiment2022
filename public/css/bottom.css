@@ -1,0 +1,10 @@
+.bottom {
+    padding: 30px 20px;
+    background-color: #282B52;
+    margin-top: 300px;
+    text-align: center;
+}
+.bottom h4 {
+    color: white;
+    font: menu;
+}

@@ -1,0 +1,220 @@
+.menu {
+    position: sticky;
+    top: 0px;
+    background-color: #282B52;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    margin: 0px;
+    font: caption;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.item {
+    font: menu;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.item:hover {
+    background-color: #1B1D37;
+    border-radius: 15px;
+}
+.tooltip1 {
+    color: white;
+    display: inline-block;
+}
+.tooltip1::before {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 60px 30px 50px;
+        border-color: transparent transparent rgb(85, 95, 171) transparent;
+        opacity: 0;
+        visibility: hidden;
+        top: 70px;
+        left: 430px;
+}
+.tooltip1::after {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(85, 95, 171);
+    position: absolute;
+    content: "This website analyses contents of a text, returning 1 out of 3 emojis, depending on the overall positivity/negativity of the text itself.";
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    top: 90px;
+    left: 190px;
+}
+
+.tooltip1:hover::after,
+.tooltip1:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+/************************************************************************************************************************************/
+
+
+.tooltip2 {
+    color: white;
+    display: inline-block;
+}
+.tooltip2::before {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 60px 30px 50px;
+        border-color: transparent transparent rgb(85, 95, 171) transparent;
+        opacity: 0;
+        visibility: hidden;
+        top: 70px;
+}
+.tooltip2::after {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(85, 95, 171);
+    position: absolute;
+    content: "Made by L L";
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    top: 90px;
+    left: 500px;
+}
+
+.tooltip2:hover::after,
+.tooltip2:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+/************************************************************************************************************************************/
+
+
+.tooltip3 {
+    color: white;
+    display: inline-block;
+}
+.tooltip3::before {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 60px 30px 50px;
+        border-color: transparent transparent rgb(85, 95, 171) transparent;
+        opacity: 0;
+        visibility: hidden;
+        top: 70px;
+        left: 660px;
+}
+.tooltip3::after {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(85, 95, 171);
+    position: absolute;
+    content: "ll@mail.idk";
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    top: 90px;
+    left: 550px;
+}
+
+.tooltip3:hover::after,
+.tooltip3:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+/************************************************************************************************************************************/
+
+
+.tooltip4 {
+    color: white;
+    display: inline-block;
+}
+.tooltip4::before {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 60px 30px 50px;
+        border-color: transparent transparent rgb(85, 95, 171) transparent;
+        opacity: 0;
+        visibility: hidden;
+        top: 70px;
+        left: 800px;
+}
+.tooltip4::after {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(85, 95, 171);
+    position: absolute;
+    content: "Compatible with any text, including emojis, special symbols etc..";
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    top: 90px;
+    left: 450px;
+}
+
+.tooltip4:hover::after,
+.tooltip4:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+/************************************************************************************************************************************/
+
+
+.tooltip5 {
+    color: white;
+    display: inline-block;
+}
+.tooltip5::before {
+        position: absolute;
+        content: "";
+        display: inline-block;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 0 60px 30px 50px;
+        border-color: transparent transparent rgb(85, 95, 171) transparent;
+        opacity: 0;
+        visibility: hidden;
+        top: 70px;
+        left: 970px;
+}
+.tooltip5::after {
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(85, 95, 171);
+    position: absolute;
+    content: "Visual Studio Code for HTML, CSS, JavaScript, Node.js (express for server, natural for analysis, stopword for easier analysis); Photoshop for images";
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+    top: 90px;
+    left: 540px;
+}
+
+.tooltip5:hover::after,
+.tooltip5:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+

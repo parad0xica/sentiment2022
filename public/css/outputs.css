@@ -1,0 +1,29 @@
+#img1 {
+    width: 90%;
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    display: none;
+    height: 200px;
+    width: 200px;
+}
+
+#img2 {
+    width: 20%;
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    display: none;
+    height: 200px;
+    width: 200px;
+}
+
+#img3 {
+    width: 20%;
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    display: none;
+    height: 200px;
+    width: 200px;
+}
