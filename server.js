@@ -35,7 +35,7 @@ app.post("/feedback", (request, response) => {
     console.log("Tokenized: ",tokenizedData); 
 
     const Sentianalyzer = 
-    new natural.SentimentAnalyzer('English', natural.PorterStemmer, 'afinn');    //stemmer to assign value to each toke
+    new natural.SentimentAnalyzer('Italian', natural.PorterStemmer, 'pattern');    //stemmer to assign value to each toke
     const analysis_score = Sentianalyzer.getSentiment(tokenizedData); 
     console.log("Sentiment Score: ",analysis_score); 
 
