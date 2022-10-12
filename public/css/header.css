@@ -84,12 +84,12 @@
     border-radius: 10px;
     background-color: rgb(85, 95, 171);
     position: absolute;
-    content: "Made by L L";
+    content: "Made by Lorem Ipsum";
     opacity: 0;
     visibility: hidden;
     z-index: 1;
     top: 90px;
-    left: 600px;
+    left: 500px;
 }
 
 .tooltip2:hover::after,
@@ -124,7 +124,7 @@
     border-radius: 10px;
     background-color: rgb(85, 95, 171);
     position: absolute;
-    content: "ll@mail.idk";
+    content: "LoremIpsumYeee@mail.idk";
     opacity: 0;
     visibility: hidden;
     z-index: 1;
