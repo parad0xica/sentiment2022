@@ -25,21 +25,9 @@
 .tooltip1 {
     color: white;
     display: inline-block;
+
 }
-.tooltip1::before {
-        position: absolute;
-        content: "";
-        display: inline-block;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 0 60px 30px 50px;
-        border-color: transparent transparent rgb(85, 95, 171) transparent;
-        opacity: 0;
-        visibility: hidden;
-        top: 70px;
-        left: 430px;
-}
+
 .tooltip1::after {
     padding: 40px;
     border-radius: 10px;
@@ -48,13 +36,14 @@
     content: "This website analyses contents of a text, returning 1 out of 3 emojis, depending on the overall positivity/negativity of the text itself.";
     opacity: 0;
     visibility: hidden;
-    z-index: 1;
-    top: 90px;
-    left: 190px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 130%;
+    border-color: white;
+    border-style: solid;
 }
 
-.tooltip1:hover::after,
-.tooltip1:hover::before {
+.tooltip1:hover::after{
     opacity: 1;
     visibility: visible;
 }
@@ -66,19 +55,7 @@
     color: white;
     display: inline-block;
 }
-.tooltip2::before {
-        position: absolute;
-        content: "";
-        display: inline-block;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 0 60px 30px 50px;
-        border-color: transparent transparent rgb(85, 95, 171) transparent;
-        opacity: 0;
-        visibility: hidden;
-        top: 70px;
-}
+
 .tooltip2::after {
     padding: 40px;
     border-radius: 10px;
@@ -87,13 +64,14 @@
     content: "Made by Lorem Ipsum";
     opacity: 0;
     visibility: hidden;
-    z-index: 1;
-    top: 90px;
-    left: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 130%;
+    border-color: white;
+    border-style: solid;
 }
 
-.tooltip2:hover::after,
-.tooltip2:hover::before {
+.tooltip2:hover::after {
     opacity: 1;
     visibility: visible;
 }
@@ -105,35 +83,23 @@
     color: white;
     display: inline-block;
 }
-.tooltip3::before {
-        position: absolute;
-        content: "";
-        display: inline-block;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 0 60px 30px 50px;
-        border-color: transparent transparent rgb(85, 95, 171) transparent;
-        opacity: 0;
-        visibility: hidden;
-        top: 70px;
-        left: 660px;
-}
+
 .tooltip3::after {
     padding: 40px;
     border-radius: 10px;
     background-color: rgb(85, 95, 171);
     position: absolute;
-    content: "LoremIpsumYeee@mail.idk";
+    content: "loremipsum@shmail.com";
     opacity: 0;
     visibility: hidden;
-    z-index: 1;
-    top: 90px;
-    left: 550px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 130%;
+    border-color: white;
+    border-style: solid;
 }
 
-.tooltip3:hover::after,
-.tooltip3:hover::before {
+.tooltip3:hover::after {
     opacity: 1;
     visibility: visible;
 }
@@ -145,20 +111,7 @@
     color: white;
     display: inline-block;
 }
-.tooltip4::before {
-        position: absolute;
-        content: "";
-        display: inline-block;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 0 60px 30px 50px;
-        border-color: transparent transparent rgb(85, 95, 171) transparent;
-        opacity: 0;
-        visibility: hidden;
-        top: 70px;
-        left: 800px;
-}
+
 .tooltip4::after {
     padding: 40px;
     border-radius: 10px;
@@ -167,13 +120,14 @@
     content: "Compatible with any text, including emojis, special symbols etc..";
     opacity: 0;
     visibility: hidden;
-    z-index: 1;
-    top: 90px;
-    left: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 130%;
+    border-color: white;
+    border-style: solid;
 }
 
-.tooltip4:hover::after,
-.tooltip4:hover::before {
+.tooltip4:hover::after {
     opacity: 1;
     visibility: visible;
 }
@@ -185,20 +139,7 @@
     color: white;
     display: inline-block;
 }
-.tooltip5::before {
-        position: absolute;
-        content: "";
-        display: inline-block;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 0 60px 30px 50px;
-        border-color: transparent transparent rgb(85, 95, 171) transparent;
-        opacity: 0;
-        visibility: hidden;
-        top: 70px;
-        left: 970px;
-}
+
 .tooltip5::after {
     padding: 40px;
     border-radius: 10px;
@@ -207,14 +148,16 @@
     content: "Visual Studio Code for HTML, CSS, JavaScript, Node.js (express for server, natural for analysis); Photoshop for images";
     opacity: 0;
     visibility: hidden;
-    z-index: 1;
-    top: 90px;
-    left: 540px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 130%;
+    border-color: white;
+    border-style: solid;
 }
 
-.tooltip5:hover::after,
-.tooltip5:hover::before {
+.tooltip5:hover::after {
     opacity: 1;
     visibility: visible;
 }
+
 
