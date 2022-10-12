@@ -89,7 +89,7 @@
     visibility: hidden;
     z-index: 1;
     top: 90px;
-    left: 500px;
+    left: 600px;
 }
 
 .tooltip2:hover::after,
