@@ -204,7 +204,7 @@
     border-radius: 10px;
     background-color: rgb(85, 95, 171);
     position: absolute;
-    content: "Visual Studio Code for HTML, CSS, JavaScript, Node.js (express for server, natural for analysis, stopword for easier analysis); Photoshop for images";
+    content: "Visual Studio Code for HTML, CSS, JavaScript, Node.js (express for server, natural for analysis); Photoshop for images";
     opacity: 0;
     visibility: hidden;
     z-index: 1;
